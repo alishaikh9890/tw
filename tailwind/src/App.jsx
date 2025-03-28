@@ -23,9 +23,23 @@ function App() {
           </div>
         </div>
 
-    <button className="bg-sky-500">Buy Now</button>
+        <button className="bg-sky-500 hover:bg-white hover:text-black text-center mt-2 text-white text-base rounded-sm p-2">Buy Now</button>
+
+        <div className="text-center my-5">
+          <p className="text-white md:text-green-700">Lorem ipsum dolor sit amet.</p>
+        </div>
 
 
+        <div className="mt-5">
+          <div className="bg-white max-w-sm md:max-w-2xl  mx-auto rounded-xl overflow-hidden">
+            <div className="md:flex">
+              <div className="">
+                <img src="https://www.travelandleisure.com/thmb/EVDbamSsx6zBocSSZoY_76JPWlo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/san-miguel-de-allende-mexico_CITYBEAUTY1222-3ddccc91339b4603b666608c8d2117ee.jpg" alt="" />
+              </div>
+              <div>text</div>
+            </div>
+          </div>
+        </div>
 
 
 
