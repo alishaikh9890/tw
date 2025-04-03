@@ -34,9 +34,12 @@ function App() {
           <div className="bg-white max-w-sm md:max-w-2xl  mx-auto rounded-xl overflow-hidden">
             <div className="md:flex">
               <div className="">
-                <img src="https://www.travelandleisure.com/thmb/EVDbamSsx6zBocSSZoY_76JPWlo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/san-miguel-de-allende-mexico_CITYBEAUTY1222-3ddccc91339b4603b666608c8d2117ee.jpg" alt="" />
+                <img className="h-48 w-full md:h-full md:w-48" src="https://www.travelandleisure.com/thmb/EVDbamSsx6zBocSSZoY_76JPWlo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/san-miguel-de-allende-mexico_CITYBEAUTY1222-3ddccc91339b4603b666608c8d2117ee.jpg" alt="" />
               </div>
-              <div>text</div>
+              <div className="p-8">
+                <div className="uppercase tracking-wide text-indigo-500 font-semibold">An awesome card</div>
+                <a href="">Tailwind css is amazing once you understand the power of it. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, saepe.</a>
+              </div>
             </div>
           </div>
         </div>
